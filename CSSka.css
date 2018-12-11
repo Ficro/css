@@ -1,0 +1,167 @@
+@media print { 		
+	ul {	 
+		list-style-type: disc !important;
+	}
+	ol {
+		list-style-type: decimal !important;	
+	}
+	img{ 
+		display: none; 
+	} 
+	.sticky *{
+		display: none; 
+	}
+        *{
+		background:#fff !important;
+		color:#000 !important;
+		width:auto !important;
+		margin: 0px !important;
+		padding: 0px !important;
+		height:auto !important;
+	}
+}
+body{
+	background-color: #331A00;
+	background-image: url(UP1.png);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;  
+	top: 15px;  
+	padding: 3%;
+	background-color: #1a0d00;
+	border: 14% solid #4CAF50;
+	margin-top:38%;
+}
+
+.menu ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 35px;
+    color:  #1a0d00;
+    background-color: #c1a162;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: #1a0d00;
+	color:  white;
+	transition: 0.4s;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 160%;
+    top: 74px;
+    left: 0;
+    background-color: white;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 15%;
+    color: white;
+    background-color: #c1a162;
+    text-decoration: none;
+
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+	background-color: #1a0d00;
+	transition: 0.4s;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+ul.subbmenu{
+	display: none;
+    position: absolute;
+	top:29%;
+    left: 100%;
+    background-color: white;
+}
+ul.subbmenu > li {
+    display: block;
+}
+ul.subbmenu > li > a {
+    display: block;
+    padding: 25%;
+    color: white;
+	width:160%;
+    background-color: #c1a162;
+    text-decoration: none;	
+	transition: 0.4s;
+
+}
+ul.subbmenu > li > a:hover {
+    text-decoration: underline;
+	background-color: #1a0d00;
+}
+ul.submenu > li:hover > ul.subbmenu {
+    display: block;
+}
+
+.side img{
+	width:100%;
+}
+.side {
+	padding: 1%; 
+	width:20%;
+	height:100%;
+	box-sizing: border-box;
+	float:left;
+}
+.side1 {
+	padding: 2%; 
+	width:36%;
+	height:100%;
+	box-sizing: border-box;
+	float:left;
+}
+.mid{
+	padding: 3%;	
+   	background-color: #c1a162;  
+	width:60%;
+	box-sizing: border-box;
+	float:left;
+	border-radius: 6px;
+}
+.main{
+	margin-top: 1%;
+	background-color:#ccc;  
+	margin-left:0%;
+	margin-right:0%;
+	width:100%;	
+}
+.poem{
+	text-align:center;
+}
+.name{
+	float:right;
+}
+.mainn{
+	text-align:center;
+	font:Comic Sans MS;
+	font-size:64px ;
+	color:#1a0d00;
+}
