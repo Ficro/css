@@ -96,7 +96,7 @@ ul.menu > li:hover > ul.submenu {
 ul.subbmenu{
 	display: none;
     position: absolute;
-	top:29%;
+	top:0;
     left: 100%;
     background-color: white;
 }
@@ -118,6 +118,34 @@ ul.subbmenu > li > a:hover {
 	background-color: #1a0d00;
 }
 ul.submenu > li:hover > ul.subbmenu {
+    display: block;
+}
+
+ul.Ssubbmenu{
+	display: none;
+    position: absolute;
+	top:50%;
+    left: 100%;
+    background-color: white;
+}
+ul.Ssubbmenu > li {
+    display: block;
+}
+ul.Ssubbmenu > li > a {
+    display: block;
+    padding: 25%;
+    color: white;
+	width:160%;
+    background-color: #c1a162;
+    text-decoration: none;	
+	transition: 0.4s;
+
+}
+ul.Ssubbmenu > li > a:hover {
+    text-decoration: underline;
+	background-color: #1a0d00;
+}
+ul.submenu > li:hover > ul.Ssubbmenu {
     display: block;
 }
 
